@@ -10,8 +10,6 @@ This is a simple react native self-project to create an innovative utilities app
 
 ```js
 npm install
-// or
-yarn install
 ```
 
 3. Run project on iOS (Simulator) / Android Studio.
