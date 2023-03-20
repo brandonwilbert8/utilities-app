@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cognizantauthenticat-staging-24226-authRole",
+      "UnauthRoleArn": "arn:aws:iam::758085500738:role/amplify-cognizantauthenticat-staging-24226-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::758085500738:role/amplify-cognizantauthenticat-staging-24226-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-cognizantauthenticat-staging-24226-deployment",
+      "UnauthRoleName": "amplify-cognizantauthenticat-staging-24226-unauthRole",
+      "StackName": "amplify-cognizantauthenticat-staging-24226",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:758085500738:stack/amplify-cognizantauthenticat-staging-24226/63956410-a823-11ed-8e19-0a769c2040ae",
+      "AmplifyAppId": "d3hc2bo5lqnsfb"
+    },
+    "categories": {
+      "auth": {
+        "CognizantAuthentication": {}
+      }
+    }
+  }
+}

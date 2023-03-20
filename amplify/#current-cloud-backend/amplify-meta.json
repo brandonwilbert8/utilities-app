@@ -1,0 +1,63 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cognizantauthenticat-staging-24226-authRole",
+      "UnauthRoleArn": "arn:aws:iam::758085500738:role/amplify-cognizantauthenticat-staging-24226-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::758085500738:role/amplify-cognizantauthenticat-staging-24226-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-cognizantauthenticat-staging-24226-deployment",
+      "UnauthRoleName": "amplify-cognizantauthenticat-staging-24226-unauthRole",
+      "StackName": "amplify-cognizantauthenticat-staging-24226",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:758085500738:stack/amplify-cognizantauthenticat-staging-24226/63956410-a823-11ed-8e19-0a769c2040ae",
+      "AmplifyAppId": "d3hc2bo5lqnsfb"
+    }
+  },
+  "auth": {
+    "CognizantAuthentication": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL",
+          "PREFERRED_USERNAME",
+          "NAME"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 6,
+          "passwordPolicyCharacters": [
+            "REQUIRES_LOWERCASE",
+            "REQUIRES_NUMBERS",
+            "REQUIRES_SYMBOLS",
+            "REQUIRES_UPPERCASE"
+          ]
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-cognizantauthenticat-staging-24226-deployment/amplify-cfn-templates/auth/CognizantAuthentication-cloudformation-template.json",
+        "logicalId": "authCognizantAuthentication"
+      },
+      "lastPushTimeStamp": "2023-02-14T04:57:41.092Z",
+      "output": {
+        "UserPoolId": "ap-southeast-2_4l9KtxL7H",
+        "AppClientIDWeb": "7b2r8hkbn43a5sl9rtllqs6cpc",
+        "AppClientID": "4uvtfo8f6936vcl3gbpq7plbu1",
+        "IdentityPoolId": "ap-southeast-2:0ea417ed-c111-46b0-a743-352ca63e4589",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-southeast-2:758085500738:userpool/ap-southeast-2_4l9KtxL7H",
+        "IdentityPoolName": "testAuthIdentityPool__staging",
+        "UserPoolName": "CognizantAuthentication"
+      },
+      "lastPushDirHash": "KoO7/ZW+avr/6/8Ty2iGOgOSUMQ="
+    }
+  }
+}
