@@ -18,9 +18,9 @@ yarn install
 
 ```js
  npm start
+```
 
 ## Support 🚀
 
 In case of any questions or problems, please contact me at:
 [brandonwilbert8@gmail.com](mailto:brandonwilbert8@gmail.com) 😀
-```
